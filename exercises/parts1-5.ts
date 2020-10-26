@@ -35,7 +35,7 @@ class Spacecraft {
 		return daysToLocation;
 	}
 
-	printDaysToLocation(location: SpaceLocation) {
+	printDaysToLocation(location: SpaceLocation): void {
 		console.log(
 			`${this.name} would take ${this.getDaysToLocation(
 				location.kilometersAway
