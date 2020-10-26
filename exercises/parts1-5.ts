@@ -44,7 +44,7 @@ class Spacecraft {
 	}
 }
 
-let spaceShuttle = new Spacecraft('Determination', 17500);
+const spaceShuttle = new Spacecraft('Determination', 17500);
 
 // Move your output statements from part 3 here. Update the template literals use the
 // instance of the class.
